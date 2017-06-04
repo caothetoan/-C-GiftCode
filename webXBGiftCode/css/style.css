@@ -1,0 +1,910 @@
+﻿@charset "utf-8";
+
+body, td, th
+{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+body
+{
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+ul
+{
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+}
+
+li
+{
+    float: left;
+}
+
+a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.clear
+{
+    clear: both;
+}
+
+.w1000
+{
+    margin: 0 auto;
+    width: 1000px;
+}
+/* CSS Document */
+.btn_submit {
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: none repeat scroll 0% 0% transparent;
+    border: medium none;
+    width: 100%;
+    cursor: pointer;
+}
+ #dynamic {
+            font-size: 15px;
+            height: 28px;
+            width: 357px;
+        }
+#uploadanh_img img {
+    max-width: 300px;
+    margin: 10px 0px 0px;
+    border: 1px solid rgb(153, 153, 153);
+}
+.tieude_nq
+{
+    text-align: center;
+    width: 398px;
+    margin: 0 auto;
+    padding: 25px 0px;
+}
+
+    .tieude_nq img
+    {
+        vertical-align: middle;
+        float: left;
+    }
+
+    .tieude_nq p
+    {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 26px;
+        margin: 0px auto;
+        text-align: center;
+        background: #edc91f;
+        float: left;
+        padding: 7px 27px;
+        margin-top: 8px;
+    }
+
+.cacbuoc
+{
+    padding: 20px 0px;
+    background: #ececec;
+    border: 1px solid #cfcfcf;
+}
+
+    .cacbuoc ul
+    {
+        padding-top: 24px;
+        height: 70px;
+        width: 577px;
+        margin: 0 auto;
+    }
+
+        .cacbuoc ul li
+        {
+            margin: 0px 10px;
+            position: relative;
+        }
+
+    .cacbuoc .fa-circle
+    {
+        opacity: 0.2;
+    }
+
+.icon_buoc
+{
+    background: #abc0c5;
+    border-radius: 100px;
+    width: 40px;
+    height: 32px;
+    padding-top: 8px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+    .icon_buoc.active
+    {
+        width: 55px;
+        height: 45px;
+        padding-top: 10px;
+        font-size: 24px;
+        margin-top: -20px;
+        opacity: 1;
+    }
+
+    .icon_buoc a
+    {
+        color: #1f8aed;
+    }
+
+    .icon_buoc p
+    {
+        color: #63829f;
+        font-size: 14px;
+    }
+
+.buoc1
+{
+    display: none;
+    position: absolute;
+    left: 50%;
+    width: 400%;
+    text-align: center;
+    margin-left: -200%;
+    font-weight: bold;
+    color: #63829f;
+}
+
+    .buoc1.active
+    {
+        display: block;
+    }
+
+.icon_buoc .fa
+{
+}
+
+
+.nd_main
+{
+    padding: 40px 0px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.dangnhap
+{
+    display: block;
+    margin: 0 auto;
+    padding: 30px 40px;
+    width: 344px;
+    border: 1px solid #C0C0C0;
+}
+
+.tentaikhoan
+{
+    margin: 10px 0px;
+}
+
+    .tentaikhoan .fa
+    {
+        position: absolute;
+        font-size: 18px;
+        padding: 12px 8px;
+        color: #9F9F9F;
+    }
+
+    .tentaikhoan input
+    {
+        height: 35px;
+        outline: 0;
+        font-size: 14px;
+        width: 90.5%;
+        padding-left: 28px;
+    }
+
+.checkbox
+{
+    font-size: 13px;
+    color: #7c7c7c;
+    float: left;
+}
+
+.quenmatkhau
+{
+    float: right;
+    font-size: 13px;
+    color: #7c7c7c;
+}
+
+    .quenmatkhau a
+    {
+        font-size: 13px;
+        color: #7c7c7c;
+        text-transform: none;
+    }
+
+.checkbox input
+{
+    vertical-align: -2px;
+}
+
+.btdn
+{
+    margin: 20px 0px 10px 0px;
+    padding: 16px 0px;
+    text-align: center;
+    background: #00adef;
+}
+
+    .btdn a
+    {
+        padding: 12px 20px;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        border-radius: 2px;
+    }
+
+.nhannhiemvu
+{
+    width: 500px;
+    margin: 0 auto;
+    display: none;
+}
+
+    .nhannhiemvu .btdn
+    {
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+.huongdan
+{
+    padding: 10px;
+    border: 4px solid #C0C0C0;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 26px;
+}
+
+    .huongdan img
+    {
+        position: absolute;
+        top: -4px;
+        left: -4px;
+    }
+
+    .huongdan ul
+    {
+        padding-left: 86px;
+    }
+
+        .huongdan ul li
+        {
+            float: none;
+            color: #868686;
+            padding: 5px 0px;
+        }
+
+            .huongdan ul li.active
+            {
+                font-weight: bold;
+                color: #000;
+            }
+
+.detail_nnd
+{
+    border: 1px solid #C0C0C0;
+    padding: 20px;
+}
+
+.box_nd
+{
+    color: #5a5a5a;
+    padding: 10px;
+    border: 1px solid #C0C0C0;
+    background: #f3f3f3;
+    border-radius: 4px;
+    line-height: 21px;
+}
+
+.huongdan_giftcode
+{
+    padding: 10px;
+    border: 4px solid #C0C0C0;
+    border-radius: 4px;
+    position: relative;
+    margin-top: 26px;
+}
+.detail_nnd_giftCode
+{
+    border: 1px solid #C0C0C0;
+    padding: 20px;
+    width: 800px;
+    /*margin-left: 400px;*/
+    margin: 0 auto
+}   
+.box_giftCode
+{
+    color: #5a5a5a;
+    padding: 10px;
+    border: 1px solid #C0C0C0;
+    background: #f3f3f3;
+    border-radius: 4px;
+    line-height: 21px;
+}
+
+.nut
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+    .nut a
+    {
+        color: #fff;
+        text-transform: none;
+    }
+
+.nut_copy
+{
+    background: #817e7c;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.bt_blue
+{
+    background: #00adef;
+}
+
+
+#comment
+{
+    display: none;
+}
+
+
+.uploadanh
+{
+    display: none;
+
+    text-align: center;
+    margin: 0 auto;
+}
+.uploadanh2
+{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+    .uploadanh p
+    {
+        margin-bottom: 40px;
+        color: #6a6a6a;
+    }
+
+.bt_taianh
+{
+    background: #00adef;
+    width: 127px;
+    height: 127px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 14px;
+}
+
+    .bt_taianh a
+    {
+        color: #fff;
+        text-transform: none;
+    }
+
+    .bt_taianh .fa
+    {
+        font-size: 50px;
+        margin-top: 30px;
+        margin-bottom: 6px;
+        margin-left: 6px;
+    }
+
+        .bt_taianh .fa:active
+        {
+            font-size: 30px;
+            margin-top: 40px;
+            color: #157498;
+        }
+
+.baoloi
+{
+    color: #ff0808;
+    margin-top: 6px;
+    font-size: 12px;
+    display: none;
+}
+
+.thanhtrangthai span
+{
+    color: #909090;
+}
+
+.bt_bo
+{
+    padding: 40px;
+    margin-top: 34px;
+}
+
+    .bt_bo p
+    {
+        display: none;
+    }
+
+    .bt_bo a
+    {
+        border: 1px solid #999;
+        padding: 10px 20px;
+        border-radius: 4px;
+        margin-right: 20px;
+        color: #6a6a6a;
+    }
+
+        .bt_bo a:hover
+        {
+            background: #00adef;
+            color: #fff;
+            border: 1px solid #fff;
+        }
+
+.lonhon
+{
+    padding: 10px 42px !important;
+    margin-right: 0px !important;
+}
+
+.nhanqua
+{
+    display: none;
+}
+
+    .nhanqua .bt_bo a
+    {
+        margin: 0 auto;
+    }
+
+    .nhanqua .baoloi
+    {
+        display: block;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+.buoc_mb
+{
+    display: none;
+    font-weight: bold;
+    color: #63829f;
+}
+
+.mn_top
+{
+    background: #002437;
+    width: 100%;
+    height: 45px;
+}
+
+.w980
+{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.mn_top a
+{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #fff;
+}
+
+.logo_mn_top
+{
+    float: left;
+    width: 98px;
+}
+
+    .logo_mn_top img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+.mn_list
+{
+    float: left;
+}
+
+.dkdn
+{
+    float: right;
+}
+
+.mn_top ul li
+{
+    padding: 11px;
+}
+
+.mn_list ul li
+{
+    padding: 11px 33px;
+}
+
+.dkdn ul li
+{
+    background: #136894;
+    padding: 5px 11px;
+    margin-top: 7px;
+}
+
+.footer
+{
+    margin-top: 60px;
+    padding-bottom: 40px;
+    background: #002437;
+    position: relative;
+    top: 91px;
+}
+
+    .footer hr
+    {
+        border: none;
+        background: #121212;
+        height: 1px;
+        margin-bottom: 32px;
+    }
+
+.logogo
+{
+    float: left;
+    padding-top: 11px;
+}
+
+.diachi
+{
+    float: left;
+    padding-left: 35px;
+    font-size: 12px;
+    color: #ADADAD;
+}
+
+    .diachi p a
+    {
+        color: #fff;
+    }
+
+.w1224
+{
+    width: 567px;
+    margin: 0px auto;
+}
+
+.menu_mb
+{
+    float: right;
+    padding: 10px;
+    display: none;
+}
+
+    .menu_mb .fa-bars
+    {
+        font-size: 28px;
+    }
+
+/*bd menu toggle ------------------------------------------------------------------------------- */
+
+.slideout-menu
+{
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 100%;
+    background: #000;
+    z-index: 100;
+}
+
+    .slideout-menu h3
+    {
+        position: relative;
+        padding: 10px 26px;
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: 400;
+    }
+
+        .slideout-menu h3 a
+        {
+            color: #FFF;
+        }
+
+.bar
+{
+    padding: 10px;
+    font-size: 28px;
+}
+
+.slideout-menu .slideout-menu-toggle
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1;
+    color: #c8c8c8;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+    .slideout-menu .slideout-menu-toggle:hover
+    {
+        color: #fff;
+    }
+
+.slideout-menu ul
+{
+    border-top: 1px solid #151515;
+    border-bottom: 1px solid #454545;
+}
+
+    .slideout-menu ul li
+    {
+        border-bottom: 1px solid #151515;
+        float: none;
+        padding-left: 13px;
+    }
+
+        .slideout-menu ul li a
+        {
+            position: relative;
+            display: block;
+            padding: 10px;
+            color: #aeaeae;
+        }
+
+            .slideout-menu ul li a:hover
+            {
+                background: #000;
+                color: #fff;
+            }
+
+            .slideout-menu ul li a i
+            {
+                position: absolute;
+                top: 15px;
+                right: 10px;
+                opacity: .5;
+            }
+
+
+.slideout-menu-toggle
+{
+    text-decoration: none;
+}
+
+.header .slideout-menu-toggle:hover
+{
+    color: #fff;
+}
+
+.header .slideout-menu-toggle i
+{
+    vertical-align: top;
+    margin: 5px 3px 0 0;
+}
+
+/* kt menu toggle ----------------------------------------------------------------------------- */
+
+
+
+
+@media screen and (max-width: 800px)
+{
+    .menu_mb
+    {
+        display: block;
+    }
+
+    .mn_list
+    {
+        display: none;
+    }
+
+    .dkdn ul
+    {
+        display: none;
+    }
+
+    .w980
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    .tieude_nq
+    {
+        width: 100%;
+    }
+
+        .tieude_nq img
+        {
+            width: 100%;
+        }
+
+    .dangnhap
+    {
+        width: 90%;
+        border: none;
+        padding: 0px;
+    }
+
+    .nhannhiemvu, .uploadanh
+    {
+        width: 95%;
+    }
+
+        .nhannhiemvu .btdn
+        {
+            width: 75%;
+        }
+
+    .bt_bo a
+    {
+        margin: 0px;
+    }
+
+    .bt_bo p
+    {
+        display: block;
+    }
+
+    .cacbuoc ul
+    {
+        display: none;
+    }
+
+    .buoc_mb, .buoc_mb ul, .buoc_mb ul li
+    {
+        display: block;
+    }
+
+    .buoc_mb
+    {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .buoc_mb1
+    {
+        display: none;
+    }
+
+    .buoc_mb2
+    {
+        display: none;
+    }
+
+    .buoc_mb4
+    {
+        display: none;
+    }
+
+    .buoc_mb3
+    {
+        display: block;
+    }
+
+    .footer
+    {
+        height: auto;
+        text-align: center;
+    }
+
+    .logogo
+    {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .diachi
+    {
+        padding: 0px;
+        width: 100%;
+    }
+
+    .w1224
+    {
+        width: auto;
+    }
+}
+
+.menu_mb {
+    
+}
+.share-fb {
+    position: relative;
+    right: -10px;
+}
+.share-fb, .share-vk, .share-tw {
+    font-size: 18px;
+}
+.share-fb, .share-vk {
+    font-size: 18px;
+}
+.share-fb-small, .share-fb {
+    border: 2px solid #3D518B;
+    border-radius: 6px;
+    background-clip: padding-box;
+    background-color: #EBEDF5;
+    background-image: -moz-linear-gradient(center bottom , #3F599D 0%, #4F67A7 100%);
+    color: #FFF;
+    text-shadow: 0px -2px 0px #425993;
+    padding: 15px 20px 15px 60px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    box-shadow: 0px 2px 2px #A5ADC9;
+    display: inline-block;
+}
+input[type="email"], input[type="password"], input[type="text"], input[type="date"], select.selection {
+    box-sizing: border-box;
+    height: 42px;
+    margin-bottom: 30px;
+    padding: 0px 20px;
+}
+.form-control {
+    margin-top: 15px !important;
+}
+.form-name {
+    width: 100%;
+    max-width: 360px;
+    margin: 0px;
+    padding: 25px 10px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #555;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+p.help-block {
+    min-height: 60px !important;
+    height: 60px !important;
+    vertical-align: bottom !important;
+    display: table-cell;
+}

@@ -1,0 +1,123 @@
+﻿.RadMenu { z-index: 2000 !important; }
+.RadGrid { width: 98% !important; margin: auto !important; margin-top: 15px !important; }
+.RadGrid .rgExpand { background: url(../Images/Down.png) no-repeat !important; cursor: pointer; }
+.RadGrid .rgCollapse { background: url(../Images/Up.png) no-repeat !important; cursor: pointer; }
+.RadGrid .rgCommandRow { height: 30px !important; }
+.RadGrid .rgCommandRow a { font-weight: bold; }
+.RadGrid .rgEditForm { z-index: 3001 !important; }
+.RadWindow { z-index: 3002 !important; }
+.RadWindow a.rwCloseButton, .RadWindow a.rwCloseButton:hover { background: url(../Images/Close.png) no-repeat !important; cursor: pointer; width: 16px !important; margin: 0px 5px; }
+.RadWindow a.rwMaximizeButton, .RadWindow a.rwMaximizeButton:hover { background: url(../Images/Maximize.png) no-repeat !important; cursor: pointer; width: 16px !important; margin: 0px 5px; }
+.RadEditor ul.reToolbar li { height: 26px !important; }
+
+/* BUTTON */
+.RadButton .rbPrimary { padding-left: 20px !important; }
+.RadLinkButton { }
+.RadLinkButton input, .RadLinkButton span { font-weight: bold; color: #000000; }
+.RadHoveredLinkButton input, .RadHoveredLinkButton span { color: #4B6C9E; }
+
+/* FILTER */
+.filter_box { width: 980px !important; padding-top: 10px !important; }
+.filter { padding: 0px; margin: 0px; }
+.filter ul { width: 930px !important; list-style: none; display: inline-block; margin: 5px 20px !important; padding: 0px; }
+.filter li.label { width: 80px; font-weight: bold; float: left; text-align: left; line-height: normal; }
+.filter li.data { width: 250px; float: left; }
+.filter li.button { width: 100px; float: left; margin-left: 5px; }
+
+/* POPUP EDIT FORM */
+li.label { width: 115px; line-height: 22px; }
+li.data { padding-left: 10px; width: 400px; }
+li.validator { padding-left: 10px; width: 10px; }
+li.error { color: #ff0000; font-size: 11px; padding-left: 10px; width: 400px; }
+li.image { padding: 0; margin: 0; margin-right: 16px; float: right; width: 104px; text-align: center; }
+li.image img { width: auto !important; height: auto !important; padding: 1px !important; border: solid 1px #cccccc !important; max-height: 100px !important; max-width: 100px !important; }
+li.image img:hover { border: solid 1px #999999 !important; }
+li.thumbnail { padding: 0; margin: 0; margin-right: 5px; float: right !important; width: 165px; text-align: center; }
+li.thumbnail img { width: auto !important; height: auto !important; padding: 1px !important; border: solid 1px #B8CBDE !important; max-height: 160px !important; max-width: 160px !important; }
+li.thumbnail img:hover { border: solid 1px #999999 !important; }
+
+/* GRID DATA LIST ITEM */
+.grid_data_list_item { float: left; padding: 0px; margin: 6px; border: 1px solid threedshadow; background: whitesmoke !important; position: relative; overflow: hidden; }
+/*.grid_data_list_item:hover { background: silver !important; }*/
+.grid_data_list_item div.data { display: block; height: 100%; overflow-x: hidden; overflow-y: scroll; }
+.grid_data_list_item div.data div.thumbnail { display: inline-block; margin: 5px; overflow: hidden; text-align: center; }
+.grid_data_list_item div.data div.thumbnail img { border: 1px solid #d3d3d3 !important; max-width: 125px; }
+.grid_data_list_item div.data div.thumbnail img:hover { border: 1px solid #b6b6b6 !important; }
+.grid_data_list_item div.data p { display: inline-block; margin: 5px 0px; height: auto; text-align: justify; line-height: 18px; }
+.grid_data_list_item div.data p.title { font-weight: bold; color: #4b6c9e; }
+.grid_data_list_item div.data p.description { }
+.grid_data_list_item div.command { padding: 5px; border-top: 1px dotted #b6b6b6; width: inherit; position: absolute; bottom: 0; background-color: #fff; display: none; }
+
+/* GRID ITEM*/
+.grid_item img { width: auto !important; height: auto !important; padding: 1px !important; border: solid 1px #cccccc !important; }
+.grid_item img:hover { border: solid 1px #999999 !important; }
+.grid_item img.tooltip { width: auto !important; height: auto !important; padding: 1px !important; border: solid 1px #cccccc !important; }
+
+.grid_article_item img { max-height: 150px !important; max-width: 150px !important; }
+
+.grid_banner_item img { max-height: 100px !important; max-width: 400px !important; }
+.grid_banner_item img.tooltip { max-height: 220px !important; max-width: 750px !important; }
+
+/* GRID EDIT FORM */
+div.GridEditForm { width: 100%; background-color: #fff; }
+div.GridEditForm ul { list-style: none; padding: 10px; margin: 0; }
+div.GridEditForm li { float: left; height: 30px; }
+
+.popup_item { background-color: #ffffff; margin: 0; padding: 0; }
+
+.article_item { height: 200px; }
+.article_item div.data div.thumbnail { width: 127px; float: left; }
+.article_item_popup { width: 935px !important; }
+.article_item_popup .command { padding: 10px; text-align: right; }
+
+.image_item { height: 300px; }
+.image_item div.data p { margin: 5px; }
+.image_item_popup { width: 600px !important; }
+.image_item_popup .command { padding: 10px; text-align: right; }
+
+.group_item { height: 270px; }
+.group_item div.data p { margin: 0px 5px; }
+.group_item_popup { width: 600px !important; }
+.group_item_popup .command { padding: 10px; text-align: right; }
+
+.faq_item { height: 150px; }
+.faq_item div.data p { margin: 5px; }
+.faq_item_popup { width: 600px !important; }
+.faq_item_popup .command { padding: 10px; text-align: right; }
+
+.banner_item { height: 250px; }
+.banner_item div.data p { margin: 0px 5px; text-align: left; }
+.banner_item_popup { width: 600px !important; }
+.banner_item_popup .command { padding: 10px; text-align: right; }
+
+/* POPUP FILE EXPLORER */
+div.FileExplorer { width: 900px !important; height: 500px !important; margin: 0; padding: 0; background-color: #ffffff; }
+div.FileExplorer div.control { width: 60%; height: 100% !important; float: left; }
+div.FileExplorer .RadFileExplorer { border: none; border-right: solid 1px #B8CBDE; }
+div.FileExplorer .RadFileExplorer .rfeAddressBox { border-top: none; }
+div.FileExplorer div.control .RadGrid { width: 100% !important; margin: auto !important; }
+div.FileExplorer div.preview { width: 40%; height: 100% !important; float: left; }
+div.FileExplorer div.preview .title { height: 26px; font-weight: bold; line-height: 22px; text-align: center; }
+div.FileExplorer div.preview .content { padding: 10px; text-align: center; }
+div.FileExplorer div.preview .content img { width: auto; max-height: 220px !important; max-width: 220px !important; padding: 1px !important; border: solid 1px #cccccc !important; }
+div.FileExplorer div.preview .content img:hover { border: solid 1px #999999 !important; }
+
+.UploadResourcesContent { width: 100%; min-height: 650px; background-color: #ffffff; }
+.UploadResources { width: 59%; height: auto; padding-left: 5px; float: left; }
+.UploadResourcesPreview { width: 39%; height: 500px; float: right !important; }
+.UploadResourcesContent fieldset { padding: 0; margin: 0; width: 100%; height: 500px; text-align: center !important; vertical-align: middle !important; }
+.UploadResourcesContent fieldset img { margin: 10px; width: auto; }
+
+/* LOGIN FORM */
+div.LoginForm { font-size: 11px; width: 100%; margin: auto !important; position: relative; }
+div.LoginForm ul { list-style: none; padding: 10px; margin: auto; width: 400px; height: 150px; }
+div.LoginForm li { float: left; height: 30px; }
+div.LoginForm input[type="text"], div.LoginForm input[type="password"] { margin: 0px; padding-left: 5px; padding-right: 5px; width: 188px; height: 20px; border: solid 1px #B8CBDE; }
+div.LoginForm input[type="text"]:hover, div.LoginForm input[type="text"]:focus, div.LoginForm input[type="password"]:hover, div.LoginForm input[type="password"]:focus { border: solid 1px #c1dbfc; }
+div.LoginForm .label { width: 100px; padding-left: 20px; text-align: right; margin-right: 10px; }
+div.LoginForm .data { padding-left: 10px; width: 200px; }
+div.LoginForm .validator { padding-left: 10px; width: 10px; }
+div.LoginForm .remember { font-size: 11px; padding-left: 140px; width: 200px; height: 30px; display: none; }
+div.LoginForm .error { color: #ff0000; font-size: 11px; padding-left: 140px; width: 200px; height: auto; text-align: justify; }
+div.LoginForm .error p { padding: 0px; margin: 0px; }
+div.LoginForm .submit { float: right; margin-right: 60px; }

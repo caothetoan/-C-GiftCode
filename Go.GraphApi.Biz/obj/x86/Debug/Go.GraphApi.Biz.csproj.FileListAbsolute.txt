@@ -1,0 +1,54 @@
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\Go.GraphApi.Biz.dll
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\Go.GraphApi.Biz.pdb
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\MyGo.Core.dll
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\log4net.dll
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\Newtonsoft.Json.dll
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\MyGo.Core.pdb
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\log4net.xml
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\Newtonsoft.Json.pdb
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\bin\Debug\Newtonsoft.Json.xml
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.dll
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.pdb
+D:\Works\SocialNetwork\Program\GraphAPI\Go.GraphApi\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.csprojResolveAssemblyReference.cache
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\Go.GraphApi.Biz.dll
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\Go.GraphApi.Biz.pdb
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\MyGo.Core.dll
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\log4net.dll
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\Newtonsoft.Json.dll
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\MyGo.Core.pdb
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\log4net.xml
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\Newtonsoft.Json.pdb
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\bin\Debug\Newtonsoft.Json.xml
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.dll
+D:\VTC Online\GoID\Program\Go.GraphApi.Demo\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.pdb
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Go.GraphApi.Biz.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Go.GraphApi.Biz.pdb
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\MyGo.Core.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Newtonsoft.Json.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Enyim.Caching.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\log4net.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.pdb
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\MyGo.Core.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Newtonsoft.Json.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Enyim.Caching.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\log4net.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.pdb
+D:\VTC\KPTApi\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.csprojResolveAssemblyReference.cache
+D:\PROJECTS\VTC ONLINE\2015\CSO\Code\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.dll
+D:\PROJECTS\VTC ONLINE\2015\CSO\Code\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.pdb
+D:\PROJECTS\VTC ONLINE\2015\CSO\Code\Go.GraphApi.Biz\bin\Release\log4net.dll
+D:\PROJECTS\VTC ONLINE\2015\CSO\Code\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.dll
+D:\PROJECTS\VTC ONLINE\2015\CSO\Code\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.pdb
+D:\PROJECTS\VTC ONLINE\2015\CSO\Code\Go.GraphApi.Biz\bin\Release\NLog.dll
+D:\PROJECTS\VTC ONLINE\2015\CSO\Code\Go.GraphApi.Biz\bin\Release\Newtonsoft.Json.dll
+D:\PROJECTS\VTC ONLINE\2015\CSO\Code\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.csprojResolveAssemblyReference.cache
+E:\WebGame\XBGiftCode\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.dll
+E:\WebGame\XBGiftCode\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.pdb
+E:\WebGame\XBGiftCode\Go.GraphApi.Biz\bin\Release\log4net.dll
+E:\WebGame\XBGiftCode\Go.GraphApi.Biz\bin\Release\Newtonsoft.Json.Net35.dll
+E:\WebGame\XBGiftCode\Go.GraphApi.Biz\bin\Release\NLog.dll
+E:\WebGame\XBGiftCode\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.dll
+E:\WebGame\XBGiftCode\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.pdb
+E:\WebGame\XBGiftCode\Go.GraphApi.Biz\obj\x86\Debug\Go.GraphApi.Biz.csprojResolveAssemblyReference.cache

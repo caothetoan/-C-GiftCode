@@ -1,0 +1,117 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="webXBGiftCode.Master.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="UTF-8">
+    <title>Nhận quà miễn phí</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../Images/cs-logo.ico" type="image/x-icon" />
+    <script src="../Scripts/jquery-1.7.1.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" />
+    <script src="../jsConfig.js"></script>
+   <%-- <script src="../js/Libs.js"></script>
+    <script type="text/javascript" src="../js/popup.js"> </script>
+    <script src="../js/toggle_menu.js" type="text/javascript"></script>
+    <script src="../js/dropzone.js"></script>
+    <script src="../js/jquery.zclip.js"></script>--%>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="slideout-menu">
+
+                <%if (IsOnline)
+                  {              
+                %>
+                <h3><a href="javascript:;"><%=Session["AccountName"] %></a> </h3>
+                <p><a href="javascript:;" class="slideout-menu-toggle open"><i class="fa fa-times bar"></i></a></p>
+                <div class="info">
+                    <ul>
+                        <%-- <li>
+                        <a href="javascript:;">Hiện có: 1000 RT  </a>
+                    </li>--%>
+                        <li>
+                            <asp:LinkButton runat="server" ID="lbtnLogout" OnClick="lbtnLogout_OnClick">
+                        Thoát<i class="fa fa-sign-out"></i>
+
+                            </asp:LinkButton>
+                        </li>
+                    </ul>
+                </div>
+                <% 
+                  } %>
+                <ul>
+                    <li><a href="/">Trang Chủ <i class="fa fa-angle-right"></i></a></li>
+                    <li><a href="javascript:;">Giới Thiệu <i class="fa fa-angle-right"></i></a></li>
+                    <%--<li><a href="javascript:;">Hướng dẫn <i class="fa fa-angle-right"></i></a></li>--%>
+                    <li><a href="<%=UrlFanpage %>" target="_blank">Fanpage <i class="fa fa-angle-right"></i></a></li>
+                    <li><a href="javascript:;">Nạp thẻ<i class="fa fa-angle-right"></i></a></li>
+                </ul>
+            </div>
+            <!--/.slideout-menu-->
+
+            <div class="all">
+                <div class="mn_top">
+                    <div class="w980">
+                        <div class="logo_mn_top">
+                            <a href="<%=Libs.Config.SiteUrl %>">
+                                <img src="images/logoGo.png">
+                            </a>
+                        </div>
+
+                        <% if (IsOnline)
+                           {
+                        %>
+                        <div class="dkdn">
+                            <ul>
+                                <%-- <li><a href="<%=Libs.UrlHelper.UrlRegister %>">Đăng kí </a></li>
+                        <li><a href="javascript:;">Đăng nhập </a></li>--%>
+                                <li><a href="javascript:;">
+                                    <%=Session["AccountName"] %>
+                                </a>
+                                </li>
+
+                                <li>
+                                    <asp:LinkButton runat="server" ID="lbtLogout2" OnClick="lbtnLogout_OnClick">
+                        Thoát <i class="fa fa-sign-out"></i>
+
+                                    </asp:LinkButton>
+                                </li>
+
+                                <div class="clear"></div>
+                            </ul>
+                        </div>
+                        <!-- dkdn -->
+                        <% } %>
+                        <div class="menu_mb" style="display: none">
+                            <a href="javascript:;" class="slideout-menu-toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                    </div>
+                    <!-- w980 -->
+                </div>
+                <!-- mn_top -->
+                <div class="tieude_nq">
+                    <img src="images/home_03.png">
+                    <!--    	<img src="images/icon_td_qua.png" > 
+        <p> Miễn phí nhận quà </p>
+        <div class="clear"></div>
+-->
+                    <div class="clear"></div>
+                </div>
+                <!-- tieude_nq -->
+
+                <div class="clear"></div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

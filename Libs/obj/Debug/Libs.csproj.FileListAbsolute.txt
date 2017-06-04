@@ -1,0 +1,16 @@
+E:\WebGame\XBGiftCode\Libs\obj\Debug\Libs.csprojResolveAssemblyReference.cache
+E:\WebGame\XBGiftCode\Libs\bin\Debug\Libs.dll
+E:\WebGame\XBGiftCode\Libs\bin\Debug\Libs.pdb
+E:\WebGame\XBGiftCode\Libs\bin\Debug\Newtonsoft.Json.Net35.dll
+E:\WebGame\XBGiftCode\Libs\bin\Debug\SSoGonews.dll
+E:\WebGame\XBGiftCode\Libs\bin\Debug\VTCeBank.SSO.Utils.dll
+E:\WebGame\XBGiftCode\Libs\obj\Debug\Libs.dll
+E:\WebGame\XBGiftCode\Libs\obj\Debug\Libs.pdb
+G:\WebDev\BoiToan\Libs\bin\Debug\Libs.dll
+G:\WebDev\BoiToan\Libs\bin\Debug\Libs.pdb
+G:\WebDev\BoiToan\Libs\obj\Debug\Libs.csprojResolveAssemblyReference.cache
+G:\WebDev\BoiToan\Libs\obj\Debug\Libs.dll
+G:\WebDev\BoiToan\Libs\obj\Debug\Libs.pdb
+G:\WebDev\BoiToan\Libs\bin\Debug\Newtonsoft.Json.Net35.dll
+G:\WebDev\BoiToan\Libs\bin\Debug\SSoGonews.dll
+G:\WebDev\BoiToan\Libs\bin\Debug\VTCeBank.SSO.Utils.dll

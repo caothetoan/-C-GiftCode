@@ -1,0 +1,37 @@
+﻿/* DEFAULTS */
+body { font-size: 11px; font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif; margin: 0px; padding: 0px; color: #696969; }
+a:link, a:visited { color: #034af3; }
+a:hover { color: #1d60ff; text-decoration: none; }
+a:active { color: #034af3; }
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 { color: #666666; font-variant: small-caps; text-transform: none; font-weight: 200; margin-bottom: 0px; }
+h1 { font-size: 24px; padding-bottom: 0px; margin-bottom: 0px; }
+h2 { font-size: 20px; font-weight: 600; border-bottom: solid 2px #666666; padding: 5px 0px; margin: 0px 10px; }
+h3 { font-size: 18px; }
+h4 { font-size: 16px; }
+h5, h6 { font-size: 14px; }
+/* this rule styles <h1> and <h2> tags that are the first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2 { margin-top: 0px; }
+
+/* PRIMARY LAYOUT ELEMENTS */
+.page { width: 100%; min-width: 980px; background-color: #fff; margin: auto; padding: 0px; }
+.header { position: relative; margin: 0px; padding: 0px; background: #4b6c9e; width: 100%; }
+.header h1 { font-weight: 700; margin: 0px; padding: 0px 0px 0px 20px; color: #f9f9f9; border: none; line-height: 2em; font-size: 2em; }
+.main { padding: 0px; margin: 0px; min-height: 635px; }
+.footer { color: #4e5766; padding: 0px; margin: 0px; text-align: center; line-height: normal; }
+
+/* TAB MENU */
+div.menu { background-color: #3a4f63; width: 100%; }
+
+/* MISC */
+.clear { clear: both; }
+.title { display: block; float: left; text-align: left; width: auto; }
+.validation_error { color: #ff0000; font-size: 11px; }
+.bold { font-weight: bold; }
+
+/* ADMIN INFO */
+.AdminInfo { font-size: 1.1em; display: block; text-align: right; padding: 10px; color: White; }
+.AdminInfo a:link { color: white; }
+.AdminInfo a:visited { color: white; }
+.AdminInfo a:hover { color: white; }

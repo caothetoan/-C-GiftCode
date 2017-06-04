@@ -1,0 +1,16 @@
+D:\Developers\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.dll
+D:\Developers\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.pdb
+D:\Developers\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\MyGo.Core.dll
+D:\Developers\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Newtonsoft.Json.dll
+D:\Developers\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Enyim.Caching.dll
+D:\Developers\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\log4net.dll
+D:\Developers\VTC\KPTApi\Go.GraphApi.Biz\obj\x86\Release\Go.GraphApi.Biz.dll
+D:\Developers\VTC\KPTApi\Go.GraphApi.Biz\obj\x86\Release\Go.GraphApi.Biz.pdb
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Go.GraphApi.Biz.pdb
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\MyGo.Core.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Newtonsoft.Json.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\Enyim.Caching.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\bin\Release\log4net.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\obj\x86\Release\Go.GraphApi.Biz.dll
+D:\VTC\KPTApi\Go.GraphApi.Biz\obj\x86\Release\Go.GraphApi.Biz.pdb

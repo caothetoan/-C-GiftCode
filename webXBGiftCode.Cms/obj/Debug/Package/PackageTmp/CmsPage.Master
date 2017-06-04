@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CmsPage.master.cs" Inherits="webXBGiftCode.Cms.CmsPage" MasterPageFile="CmsSite.Master" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<asp:Content ID="CmsPageHeaderContent" ContentPlaceHolderID="CmsSiteHeaderPlaceHolder"
+    runat="server">
+</asp:Content>
+<asp:Content ID="CmsPageContent" ContentPlaceHolderID="CmsSiteContentPlaceHolder"
+    runat="server">
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                   <a href="Default.aspx">Content Management System</a> 
+                </h1>
+            </div>
+            <div class="AdminInfo">
+                <span>Hôm nay, ngày
+                    <asp:Label ID="lblDay" runat="server"></asp:Label>
+                    tháng
+                    <asp:Label ID="lblMonth" runat="server"></asp:Label>
+                    năm
+                    <asp:Label ID="lblYear" runat="server"></asp:Label></span>
+                <br />
+                <span>
+                    <asp:Label ID="lblAccountName" runat="server"></asp:Label>&nbsp;&nbsp;<asp:HyperLink
+                        ID="lnkLogout" runat="server" NavigateUrl="Logout.aspx">[ Thoát ]</asp:HyperLink>
+                </span>
+            </div>
+        </div>
+        <div class="menu">
+            <telerik:RadMenu ID="MainMenu" runat="server" Width="100%" Skin="WebBlue">
+                <Items>
+                    <telerik:RadMenuItem Text="Quản trị nội dung" Font-Bold="true">
+                        <Items>
+                            <telerik:RadMenuItem Text="Survey Account List" NavigateUrl="SurveyAccountList.aspx">
+                            </telerik:RadMenuItem>
+                            <telerik:RadMenuItem Text="Nhóm" NavigateUrl="GroupList.aspx">
+                            </telerik:RadMenuItem>
+                            <telerik:RadMenuItem Text="Bài viết" NavigateUrl="ArticleList.aspx">
+                            </telerik:RadMenuItem>
+                            <telerik:RadMenuItem Text="Câu hỏi thường gặp" NavigateUrl="FaqList.aspx">
+                            </telerik:RadMenuItem>
+                        </Items>
+                    </telerik:RadMenuItem>
+                </Items>
+            </telerik:RadMenu>
+        </div>
+        <div class="main">
+            <telerik:RadAjaxPanel ID="CMSAjaxPanel" runat="server" skin="Windows7" LoadingPanelID="CmsSiteAjaxLoadingPanel">
+                <asp:ContentPlaceHolder ID="CMSContentPlaceHolder" runat="server" />
+            </telerik:RadAjaxPanel>
+        </div>
+        <div class="footer">
+        </div>
+    </div>
+</asp:Content>

@@ -1,0 +1,88 @@
+﻿<root>
+  <!--<tools name="MainToolbar" enabled="true">
+    <tool name="XhtmlValidator" />
+    <tool name="TrackChangesDialog" />
+    <tool name="FormatCodeBlock" />
+    <tool name="InsertSymbol" />
+    <tool name="FormatStripper" />
+    <tool separator="true"/>
+    <tool name="InsertFormElement" />
+    <tool name="InsertFormForm" />
+    <tool name="InsertFormButton" />
+    <tool name="InsertFormCheckbox" />
+    <tool name="InsertFormHidden" />
+    <tool name="InsertFormPassword" />
+    <tool name="InsertFormRadio" />
+    <tool name="InsertFormReset" />
+    <tool name="InsertFormSelect" />
+    <tool name="InsertFormSubmit" />
+    <tool name="InsertFormTextarea" />
+    <tool name="InsertFormText" />
+    <tool separator="true"/>
+    <tool name="StripAll" />
+    <tool name="StripCss" />
+    <tool name="StripFont" />
+    <tool name="StripSpan" />
+    <tool name="StripWord" />
+  </tools>-->
+  <tools>
+    <tool name="FindAndReplace" />
+    <tool name="Print" />
+    <tool name="AjaxSpellCheck" />
+    <tool separator="true" />
+
+    <tool name="SelectAll" />
+    <tool name="Cut" />
+    <tool name="Copy" />
+    <tool name="Paste" />
+    <tool name="PasteStrip" />
+    <tool separator="true" />
+
+    <tool name="Undo" />
+    <tool name="Redo" />
+    <tool separator="true" />
+
+    <tool name="ImageManager" />
+    <tool name="SilverlightManager" enabled="false" />
+    <tool name="FlashManager" enabled="false" />
+    <tool name="MediaManager" enabled="false" />
+    <tool name="DocumentManager" enabled="false" />
+    <tool name="TemplateManager" enabled="false" />
+    <tool separator="true" />
+
+    <tool name="LinkManager" />
+    <tool name="Unlink" />
+    <tool name="InsertSymbol" />
+    <tool separator="true" />
+    <tool name="InsertTable" />
+    <tool name="SetTableProperties" />
+    <tool name="ToggleTableBorder" />
+  </tools>
+  <tools>
+    <tool name="FormatBlock" />
+    <tool name="FontName" />
+    <!--<tool name="FontSize" />-->
+    <tool name="RealFontSize"/>
+    <tool name="ForeColor" />
+    <tool name="BackColor" />
+    <tool separator="true" />
+
+    <tool name="Bold" />
+    <tool name="Italic" />
+    <tool name="Underline" />
+    <tool separator="true" />
+
+    <tool name="JustifyLeft" />
+    <tool name="JustifyCenter" />
+    <tool name="JustifyRight" />
+    <tool name="JustifyFull" />
+    <tool separator="true" />
+
+    <tool name="InsertOrderedList" />
+    <tool name="InsertUnorderedList" />
+    <tool name="Outdent" />
+    <tool name="Indent" />
+    <tool separator="true" />
+    <tool name="ToggleScreenMode" shortcut="F11"/>
+  </tools>
+</root>

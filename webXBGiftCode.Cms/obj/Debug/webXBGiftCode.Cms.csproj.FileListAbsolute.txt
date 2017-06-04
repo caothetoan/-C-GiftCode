@@ -1,0 +1,16 @@
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\obj\Debug\webXBGiftCode.Cms.csprojResolveAssemblyReference.cache
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\webXBGiftCode.Cms.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\webXBGiftCode.Cms.pdb
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Go.App.Utils.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Libs.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Newtonsoft.Json.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Telerik.Web.Design.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Telerik.Web.Device.Detection.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Telerik.Web.UI.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Telerik.Web.UI.Skins.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\NLog.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Libs.pdb
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Telerik.Web.Device.Detection.xml
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\bin\Telerik.Web.UI.xml
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\obj\Debug\webXBGiftCode.Cms.dll
+E:\WebGame\XBGiftCode\webXBGiftCode.Cms\obj\Debug\webXBGiftCode.Cms.pdb

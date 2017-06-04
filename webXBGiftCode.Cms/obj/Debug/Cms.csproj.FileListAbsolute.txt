@@ -1,0 +1,10 @@
+G:\WebDev\BoiToan\webXBGiftCode.Cms\bin\webXBGiftCode.Cms.dll
+G:\WebDev\BoiToan\webXBGiftCode.Cms\bin\webXBGiftCode.Cms.pdb
+G:\WebDev\BoiToan\webXBGiftCode.Cms\bin\Libs.dll
+G:\WebDev\BoiToan\webXBGiftCode.Cms\bin\NLog.dll
+G:\WebDev\BoiToan\webXBGiftCode.Cms\bin\Libs.pdb
+G:\WebDev\BoiToan\webXBGiftCode.Cms\bin\Telerik.Web.Device.Detection.xml
+G:\WebDev\BoiToan\webXBGiftCode.Cms\bin\Telerik.Web.UI.xml
+G:\WebDev\BoiToan\webXBGiftCode.Cms\obj\Debug\Cms.csprojResolveAssemblyReference.cache
+G:\WebDev\BoiToan\webXBGiftCode.Cms\obj\Debug\webXBGiftCode.Cms.dll
+G:\WebDev\BoiToan\webXBGiftCode.Cms\obj\Debug\webXBGiftCode.Cms.pdb
